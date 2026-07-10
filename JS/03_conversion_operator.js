@@ -27,3 +27,8 @@ let stringNumber = String(someNumber)
 // console.log(stringNumber);
 // console.log(typeof stringNumber);
 
+
+// operations from here
+let value=3
+let negvalue=-value
+console.log(negvaluef)

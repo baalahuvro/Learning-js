@@ -6,4 +6,4 @@ accountCity="dhanbad"
 accountEmail="hehe@gmail.com"
 accountCity="mumbai"
 console.table([accountEmail,accountCity,acccountId])
-//just a test okay dont take it seriously
+

@@ -31,12 +31,30 @@ const obj3={...obj1,...obj2,...obj4}//this is the spread mthd use this
     
 // }
 // console.log(users.user1.email);
-console.log(tinderuser);        
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
-console.log(tinderuser.hasOwnProperty('isloggedn')); 
+// console.log(tinderuser);        
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
+// console.log(tinderuser.hasOwnProperty('isloggedn')); 
 
+const course ={
+    coursename:"js learning",
+    price:0,
+    course_teacher:"hitesh sur"
+}
+// course.course_teacher
+const {course_teacher} =course
+console.log(course_teacher);
+// {
+//     "name":"baala",
+//     "occupation":"student",
+//     "college":"bit"
+// }
+[
+    {},
+    {},
+    {},
+]// use jason formatter
 
 
 

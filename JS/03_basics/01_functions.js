@@ -30,3 +30,27 @@ function loginmsg(username){ //usrname="sam"-ye default value hojayega
 }
 console.log(loginmsg("hehe"));
 
+function calculatecartprice(val1, val2, ...num1){
+    return num1
+}
+console.log(calculatecartprice(200,400,500,2000));
+
+const user={
+    username:"baalahuvro",
+    price:199
+}
+function handleobject(anyobject){
+    console.log(`username is ${anyobject.username} nd price is ${anyobject.price}`);
+    
+}
+handleobject({
+    username:"sam",
+    price:200
+})
+
+const mynewarray =[20, 300, 400, 600]
+function returnsecondvalue(getarray){
+    return getarray[1]
+}
+// console.log(returnsecondvalue(mynewarray));
+console.log(returnsecondvalue([200,2001,2932]));
